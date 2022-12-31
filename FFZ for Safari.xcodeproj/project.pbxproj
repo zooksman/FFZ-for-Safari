@@ -23,7 +23,7 @@
 		25A96ACC29411C0E00F2FBAB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 25A96ACA29411C0E00F2FBAB /* images */; };
 		25B81AFC27689AF200B6717E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AFB27689AF200B6717E /* AppDelegate.swift */; };
 		25B81AFF27689AF200B6717E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AFD27689AF200B6717E /* Main.storyboard */; };
-		25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25B81B1027689AF200B6717E /* FFZ for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 25B81B0F27689AF200B6717E /* FFZ for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		25B81B1727689AF200B6717E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD127689AF100B6717E /* Main.html */; };
 		25B81B1B27689AF200B6717E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD427689AF100B6717E /* Style.css */; };
 		25B81B1D27689AF200B6717E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD527689AF100B6717E /* Script.js */; };
@@ -52,7 +52,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed Foundation Extensions */,
+				25B81B1027689AF200B6717E /* FFZ for Safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,11 +76,11 @@
 		25B81ADB27689AF200B6717E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		25B81ADD27689AF200B6717E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		25B81ADF27689AF200B6717E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		25B81AF927689AF200B6717E /* BTTV for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTTV for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B81AF927689AF200B6717E /* FFZ for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFZ for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B81AFB27689AF200B6717E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B81AFE27689AF200B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25B81B0027689AF200B6717E /* BTTV for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BTTV for Safari.entitlements"; sourceTree = "<group>"; };
-		25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BTTV for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B81B0F27689AF200B6717E /* FFZ for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FFZ for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B81B1427689AF200B6717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25B81B1527689AF200B6717E /* BTTV for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BTTV for Safari.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,8 +163,8 @@
 		25B81AE827689AF200B6717E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25B81AF927689AF200B6717E /* BTTV for Safari.app */,
-				25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */,
+				25B81AF927689AF200B6717E /* FFZ for Safari.app */,
+				25B81B0F27689AF200B6717E /* FFZ for Safari Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25B81AF827689AF200B6717E /* BTTV for Safari (macOS) */ = {
+		25B81AF827689AF200B6717E /* FFZ for Safari (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25B81B4127689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari (macOS)" */;
+			buildConfigurationList = 25B81B4127689AF200B6717E /* Build configuration list for PBXNativeTarget "FFZ for Safari (macOS)" */;
 			buildPhases = (
 				25B81AF527689AF200B6717E /* Sources */,
 				25B81AF627689AF200B6717E /* Frameworks */,
@@ -205,14 +205,14 @@
 			dependencies = (
 				25B81B1227689AF200B6717E /* PBXTargetDependency */,
 			);
-			name = "BTTV for Safari (macOS)";
+			name = "FFZ for Safari (macOS)";
 			productName = "BTTV for Safari (macOS)";
-			productReference = 25B81AF927689AF200B6717E /* BTTV for Safari.app */;
+			productReference = 25B81AF927689AF200B6717E /* FFZ for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		25B81B0E27689AF200B6717E /* BTTV for Safari Extension (macOS) */ = {
+		25B81B0E27689AF200B6717E /* FFZ for Safari Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25B81B3D27689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari Extension (macOS)" */;
+			buildConfigurationList = 25B81B3D27689AF200B6717E /* Build configuration list for PBXNativeTarget "FFZ for Safari Extension (macOS)" */;
 			buildPhases = (
 				25B81B0B27689AF200B6717E /* Sources */,
 				25B81B0C27689AF200B6717E /* Frameworks */,
@@ -222,9 +222,9 @@
 			);
 			dependencies = (
 			);
-			name = "BTTV for Safari Extension (macOS)";
+			name = "FFZ for Safari Extension (macOS)";
 			productName = "BTTV for Safari Extension (macOS)";
-			productReference = 25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */;
+			productReference = 25B81B0F27689AF200B6717E /* FFZ for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25B81ACE27689AF100B6717E /* Build configuration list for PBXProject "BTTV for Safari" */;
+			buildConfigurationList = 25B81ACE27689AF100B6717E /* Build configuration list for PBXProject "FFZ for Safari" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,8 +258,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25B81AF827689AF200B6717E /* BTTV for Safari (macOS) */,
-				25B81B0E27689AF200B6717E /* BTTV for Safari Extension (macOS) */,
+				25B81AF827689AF200B6717E /* FFZ for Safari (macOS) */,
+				25B81B0E27689AF200B6717E /* FFZ for Safari Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 /* Begin PBXTargetDependency section */
 		25B81B1227689AF200B6717E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 25B81B0E27689AF200B6717E /* BTTV for Safari Extension (macOS) */;
+			target = 25B81B0E27689AF200B6717E /* FFZ for Safari Extension (macOS) */;
 			targetProxy = 25B81B1127689AF200B6717E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,7 +490,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
-				PRODUCT_NAME = "BTTV for Safari Extension";
+				PRODUCT_NAME = "FFZ for Safari Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -524,7 +524,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
-				PRODUCT_NAME = "BTTV for Safari Extension";
+				PRODUCT_NAME = "FFZ for Safari Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -538,16 +538,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BTTV for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = N6J2M765XY;
+				DEVELOPMENT_TEAM = 7U32295X42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "FFZ for Safari";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -563,8 +564,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari";
-				PRODUCT_NAME = "BTTV for Safari";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.FFZ-for-Safari";
+				PRODUCT_NAME = "FFZ for Safari";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -577,16 +578,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BTTV for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = N6J2M765XY;
+				DEVELOPMENT_TEAM = 7U32295X42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "FFZ for Safari";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -602,8 +604,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari";
-				PRODUCT_NAME = "BTTV for Safari";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.FFZ-for-Safari";
+				PRODUCT_NAME = "FFZ for Safari";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -613,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25B81ACE27689AF100B6717E /* Build configuration list for PBXProject "BTTV for Safari" */ = {
+		25B81ACE27689AF100B6717E /* Build configuration list for PBXProject "FFZ for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B81B3427689AF200B6717E /* Debug */,
@@ -622,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25B81B3D27689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari Extension (macOS)" */ = {
+		25B81B3D27689AF200B6717E /* Build configuration list for PBXNativeTarget "FFZ for Safari Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B81B3E27689AF200B6717E /* Debug */,
@@ -631,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25B81B4127689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari (macOS)" */ = {
+		25B81B4127689AF200B6717E /* Build configuration list for PBXNativeTarget "FFZ for Safari (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B81B4227689AF200B6717E /* Debug */,

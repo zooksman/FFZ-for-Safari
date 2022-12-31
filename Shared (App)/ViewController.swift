@@ -11,7 +11,7 @@ import Cocoa
 import SafariServices
 typealias PlatformViewController = NSViewController
 
-let extensionBundleIdentifier = "cloud.bolte.BTTV-for-Safari.Extension"
+let extensionBundleIdentifier = "cloud.bolte.FFZ-for-Safari.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
