@@ -70,10 +70,10 @@
 		25B81AF927689AF200B6717E /* FFZ for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFZ for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B81AFB27689AF200B6717E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B81AFE27689AF200B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25B81B0027689AF200B6717E /* BTTV for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BTTV for Safari.entitlements"; sourceTree = "<group>"; };
+		25B81B0027689AF200B6717E /* FFZ for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FFZ for Safari.entitlements"; sourceTree = "<group>"; };
 		25B81B0F27689AF200B6717E /* FFZ for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FFZ for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B81B1427689AF200B6717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25B81B1527689AF200B6717E /* BTTV for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BTTV for Safari.entitlements"; sourceTree = "<group>"; };
+		25B81B1527689AF200B6717E /* FFZ for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FFZ for Safari.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 			children = (
 				25B81AFB27689AF200B6717E /* AppDelegate.swift */,
 				25B81AFD27689AF200B6717E /* Main.storyboard */,
-				25B81B0027689AF200B6717E /* BTTV for Safari.entitlements */,
+				25B81B0027689AF200B6717E /* FFZ for Safari.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				25B81B1427689AF200B6717E /* Info.plist */,
-				25B81B1527689AF200B6717E /* BTTV for Safari.entitlements */,
+				25B81B1527689AF200B6717E /* FFZ for Safari.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
