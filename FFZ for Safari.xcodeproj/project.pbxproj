@@ -454,11 +454,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = N6J2M765XY;
+				DEVELOPMENT_TEAM = 7U32295X42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "FFZ for Safari Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +471,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.FFZ-for-Safari.Extension";
 				PRODUCT_NAME = "FFZ for Safari Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -488,11 +488,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = N6J2M765XY;
+				DEVELOPMENT_TEAM = 7U32295X42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "FFZ for Safari Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -505,7 +505,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.FFZ-for-Safari.Extension";
 				PRODUCT_NAME = "FFZ for Safari Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;

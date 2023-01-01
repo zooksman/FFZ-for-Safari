@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "BTTV for Safari",
-        "description": "BTTV for Safari"
+        "message": "FFZ for Safari",
+        "description": "FFZ for Safari"
     },
     "extension_description": {
-        "message": "BTTV and FFZ emotes for Safari. This project is not affiliated with neither BTTV or FFZ.",
-        "description": "BTTV for Safari"
+        "message": "FFZ emotes and VAFT adblock for Safari. This project is not affiliated with neither BTTV, FFZ, or VAFT.",
+        "description": "FFZ for Safari"
     }
 }
